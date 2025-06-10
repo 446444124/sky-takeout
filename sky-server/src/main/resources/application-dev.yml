@@ -13,3 +13,7 @@ sky:
     access-key-secret: ${ALIYUN_SECRET_KEY}
     bucket-name: skytakeout-lunxi
 
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
